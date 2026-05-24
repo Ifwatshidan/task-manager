@@ -9,6 +9,7 @@
 .login-card {
   backdrop-filter: blur(12px);
   background: rgba(255, 255, 255, 0.9);
+  width: 100%;
 }
 
 /* Button hover effect */
@@ -142,4 +143,25 @@ body {
 
 .form-label {
   margin-bottom: 5px;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* limit search width dalam navbar */
+.navbar form {
+  max-width: 200px;
+}
+
+/* bagi input responsive */
+.navbar input {
+  width: 100%;
+}
+
+/* untuk phone */
+@media (max-width: 768px) {
+  .navbar form {
+    max-width: 120px;
+  }
 }
